@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-bar{
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border: 2px solid  white;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile .name{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.lists{
+    position: relative;
+    display: inline-block;
+}
+.btns{
+    padding: 9px 100px;
+    background-color: aqua;
+    color: black;
+    border: none;;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.links {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: orange;
+}
+ .lists:hover > .links {
+    display: block;
+}
+.links > .a1{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 0px;
+    text-align: center;
+    border-bottom: 2px solid red;
+    font-weight: bold;
+}
+.links > .a1:hover{
+    background-color: black;
+    color: white;
+}
+
+#about-me{
+    background-color: black;
+    width: 100%;
+    height: 350px;
+    color: white;
+    margin-top: 90px;
+}
+#side1{
+    background-image: linear-gradient(to right bottom, red, blue);
+    text-align: center;
+    padding: 15px 0px;
+    color: white;
+    font-weight: bold;
+}
+#side2{
+    background-image: linear-gradient(to right bottom, red, blue);
+    text-align: center;
+    padding: 15px 0px;
+    color: white;
+    font-weight: bold;
+}
+#side3{
+    background-image: linear-gradient(to right bottom, red, blue);
+    text-align: center;
+    padding: 15px 0px;
+    color: white;
+    font-weight: bold;
+}
+#side4{
+    background-image: linear-gradient(to right bottom, red, blue);
+    text-align: center;
+    padding: 15px 0px;
+    color: white;
+    font-weight: bold;
+}
+#side5{
+    background-image: linear-gradient(to right bottom, red, blue);
+    text-align: center;
+    padding: 15px 0px;
+    color: white;
+    font-weight: bold;
+}
+#side6{
+    background-image: linear-gradient(to right bottom, red, blue);
+    text-align: center;
+    padding: 15px 0px;
+    color: white;
+    font-weight: bold;
+}
+#side7{
+    background-image: linear-gradient(to right bottom, red, blue);
+    text-align: center;
+    padding: 15px 0px;
+    color: white;
+    font-weight: bold;
+}
+#side8{
+    background-image: linear-gradient(to right bottom, red, blue);
+    text-align: center;
+    padding: 15px 0px;
+    color: white;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text{
+    font-weight: bold;
+    font-size: 25px;
+}
+ .big-img{
+    width: 350px;
+    height: 250px;
+    margin-top: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.my-name{
+    background: aqua;
+    color: black;
+    text-align: center;
+    padding: 5px 0px;
+    font-weight: bolder;
+}
+.about-info{
+    color: white;
+    font-size: 14px;
+    margin: 15px 10px 0px 10px;
+    word-spacing: 1px;
+}
+.text{
+    padding: 5px;
+}
+
+#personal-details{
+    background-color: black;
+    width: 100%;
+    height: 350px;
+    color: white;
+}
+.data{
+    margin: 20px 150px;
+}
+.data ul li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+table{
+    margin: 15px 30px;
+}
+#skills .items{
+    align-items: center;
+    padding: 10px 90px;
+    font-weight: bold;
+    background-color: black;
+    color: rgb(12, 205, 244);
+    font-size: 17px;
+}
+#strengths .str{
+    background-color: black;
+    color: lime;
+    padding: 15px 90px;
+    word-spacing: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#carrier .info{
+    background-color: black;
+    padding: 25px 25px;
+    color: white;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 16px;
+    word-spacing: 4px;
+}
+.declare .dec{
+    background-color: black;
+    color: rgb(220, 235, 14);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 10px;
+}
+.end{
+    text-align: left;
+    color: blue;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: black;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#ff00ff, aqua);
+    border-radius: 7px;
+    width: 8px;
+    height: 20px;
+}
